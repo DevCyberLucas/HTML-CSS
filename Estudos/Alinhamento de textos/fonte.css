@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    background-image: linear-gradient(to right, lightBlue, rgb(107, 107, 218));
+    font-size: 1rem
+}
+h1{
+    font-family:Arial,Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    text-align: right;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    text-indent: 20px;
+}

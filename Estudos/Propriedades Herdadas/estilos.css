@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#titulo-principal{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+h1{
+    color: darkgreen;
+    text-decoration: underline;
+    text-indent: 30px;
+}

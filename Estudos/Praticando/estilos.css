@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(101, 101, 172),rgb(59, 59, 150));
+    margin: 0px;
+}
+.menu{
+    width: 83px;
+    margin: 10px auto;
+}
+h1{
+    background-color: gray;
+    color: white;
+    height: 35px;
+    width: 75px;
+    border: solid black;
+    border-radius: 5px; 
+    margin: auto;
+    padding: 2px 4px;
+}
+div > .escolhas{
+    display: none;
+}
+div:hover > .escolhas{
+    display: block;
+}
+p > a{
+    text-decoration: none;
+    padding: 20px;
+}
+p > a:hover{
+    text-decoration: underline;
+}
+div > p{
+    text-align: justify;
+    background-color: white;
+    padding: 20px 15px;
+    margin: 10px;
+}
+.final{
+    text-align: center;
+    background-color: black;
+    color: white;
+}

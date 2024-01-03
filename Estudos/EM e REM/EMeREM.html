@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width device-width, initial-scale=1.0">
+    <title>EM e REM</title>
+    <style>
+        html{
+            font-size:10px; /*O base do navegador é 32px*/
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: 3em; padding: 3em;">Exemplo com EM</h1>
+    <!--CALCULO EM:
+
+    font-size(html) * em = font-size que depois sera multiplicado pelo padding
+
+    10*3=30 = tamanho real  30*3=90 = padding
+    
+    Não recomendado mas usado por ser díficil seu cálculo-->
+
+
+    <h1 style="font-size: 3rem; padding: 3rem;">Exemplo com REM</h1>
+    <!--CALCULO REM:
+    
+    font-size(html) * rem(size) = font-size
+    font-size(html) * rem(padding) = padding
+
+    Recomendado e mais fácil-->
+</body>
+</html>
